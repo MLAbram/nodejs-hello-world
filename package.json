@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "name": "nodejs-hello-world",
+  "description": "A basic Node.js script for testing your Node.js server.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js -e js,mjs,json,hbs,css"
+  },
+  "author": "",
+  "license": "ISC"
+}
